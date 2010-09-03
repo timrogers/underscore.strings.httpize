@@ -8,6 +8,8 @@
 		function httpizedemo() {
 			var text = prompt("What URL would you like to HTTPize?", "github.com");
 			var url = _.httpize(text);
+			// or, you could use:
+			// var url = _(text).httpize();
 			alert(url);
 		}
 	</script>
