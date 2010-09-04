@@ -13,6 +13,15 @@ How do I use it?
 
 A full usage example is included in example.html. In short, you need to include underscore.js, underscore.strings.js and underscore.strings.httpize.js (preferably in that order) and then run _.httpize(string_to_httpize). Or you can use the alternative syntax of _(string_to_httpize).httpize().
 
+Future updates...
+-----------------
+
+I created a version 1.1 with support for adding https:// to the start of URLs, but decided not to release it as I couldn't decide on a behaviour which I thought was good.
+
+Is this a feature that anyone would be interested in? If so, would you want to force a URL which is originally http:// to be https://, or would you leave it with the original prefix? How would you make such a feature behave?
+
+**It would be great if anyone felt like making their own version with such a feature. If you're up for it, fork the repository, update it and send me a pull request and I'll be sure to take a look :)**
+
 Credits, thanks and acknowledgements
 ------------------------------------
 
